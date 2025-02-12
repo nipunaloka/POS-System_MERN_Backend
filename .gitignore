@@ -1,0 +1,41 @@
+# Node.js dependencies
+node_modules/
+npm-debug.log*
+yarn-error.log
+pnpm-debug.log*
+
+# Logs
+logs/
+*.log
+npm-debug.log
+yarn-debug.log
+yarn-error.log
+pnpm-debug.log
+lerna-debug.log
+*.lock
+
+# Environment variables
+.env
+.env.local
+.env.development
+.env.production
+.env.test
+.env*.local
+
+# Build files
+build/
+dist/
+coverage/
+.cache/
+
+# Config files (Sensitive Information)
+config/
+config/*.json
+config/*.js
+config/*.ts
+
+# VS Code settings
+.vscode/
+.idea/
+*.swp
+
